@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <parameter name="browserName" value="chrome"/>
+  <test thread-count="5" name="FunctionalTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="TestScript.AddContractor_Pkg_Via_ProjectTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="add_CP_Via_Project"/>
+          <include name="launchBrowser"/>
+          <include name="reportEnd"/>
+          <include name="reportGenerate"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- TestScript.AddContractor_Pkg_Via_ProjectTC -->
+      <class name="TestScript.EnrollContractorWithouExcel_TC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="enrollContractorTest"/>
+          <include name="launchBrowser"/>
+          <include name="reportEnd"/>
+          <include name="reportGenerate"/>
+          <include name="add_CP_Via_Project"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- TestScript.EnrollContractorWithouExcel_TC -->
+      <class name="TestScript.Add_Required_Document_Test">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="reportEnd"/>
+          <include name="reportGenerate"/>
+          <include name="addRequiredDocumentTest"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- TestScript.Add_Required_Document_Test -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->

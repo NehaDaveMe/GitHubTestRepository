@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+	
+		<classes>
+		
+		<!-- <class name="TestScript.Report_DeductDetails_Old_Test" /> -->
+		<!-- <class name="TestScript.Report_EnrollmentSummary_Lipscomb_Test" /> -->
+		
+		
+	<!-- Calculation -->
+	
+	<!--<class name="TestScript.Calculation_ContractorInsuranceCostTrackingTest" />
+	  <class name="TestScript.Calculation_InitialDeductReportTest" />
+	<class name="TestScript.Calculation_ContractorCostSummaryTest" />
+	<class name="TestScript.Calculation_ContractorInsuranceCostTrackingTest" /> -->
+		
+	
+	
+	<class name="TestScript.Calculation_FinalDeductReportTest" />
+	<class name="TestScript.Calculation_InitialDeductReportTest" />
+	<class name="TestScript.Calculation_ContractorCostSummaryTest" />
+	<class name="TestScript.Calculation_ContractorInsuranceCostTrackingTest" />
+	<class name="TestScript.Calculation_DeductSummaryTest" />
+	<class name="TestScript.Calculation_LaborRateAnalysisTest" />
+	<class name="TestScript.Calculation_PayrollAuditSummaryTest" />
+	<class name="TestScript.Calculation_PayrollToCVPercentageTest" />
+	<class name="TestScript.Calculation_ProgramCloseoutSummaryTest" />
+	<class name="TestScript.Calculation_ProgramDeductionRateAnalysisTest" />
+	<class name="TestScript.Calculation_ProgramFinancialAnalysisTest" />
+	<class name="TestScript.Calculation_GL_CreditTrackingTest" />
+	<class name="TestScript.Calculation_InsurancceCreditDeductReviewTest" />
+	<class name="TestScript.Calculation_ContractorInsuranceCreditReportTest" />
+	
+	<class name="TestScript.Calculation_ContractorPayrollManHoursAndLabourRateTest" />
+
+	
+	
+	
+		</classes>
+	</test>
+</suite>

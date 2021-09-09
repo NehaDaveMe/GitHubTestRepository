@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!-- new Report 05/26/2021 Report_ContractorStandingReport_Test -->
+
+			<!-- Lockton reports -->
+
+			<class name="TestScript.Report_ContractorStandingReport_Test" />
+			<class name="TestScript.Report_ClaimCodingContractorSummaryReportTC" />
+			<class name="TestScript.Report_ContractorAwardsTC" />
+
+			<class name="TestScript.Report_ContractorDeductSummaryTC" />
+			<class name="TestScript.Report_ContractorStructureTC" />
+			<class name="TestScript.Report_ContractValueLaborHoursbyProgram_TC" />
+			<class name="TestScript.Report_ContractorStatusTC" />
+			<class name="TestScript.Report_EnrolledContractorsListTC" />
+			<class name="TestScript.Report_EnrollmentReportTC" />
+
+			<class name="TestScript.Report_EstimatedEndDatesTC" />
+			<class name="TestScript.Report_FinalDeductTC" />
+			<class name="TestScript.Report_InitialDeduct_TC" />
+			<class name="TestScript.Report_AgendaTC" />
+
+			<class name="TestScript.Report_MissingPayrollReportTC" />
+			<class name="TestScript.Report_SponsorProjectDetailTC" />
+			<class name="TestScript.Report_PayrollComparisonTC" />
+			<class name="TestScript.Report_PayrollToCVPercentageTC" />
+
+			<class name="TestScript.Report_SuspendedPayrollReportTC" />
+			<class name="TestScript.Report_TotalMonthlyPayrollTC" />
+
+			<!-- <class name="TestScript.Report_ProgramCloseoutSummaryTC" /> //report 
+				is not listed in the list so remove -->
+
+		</classes>
+	</test>
+</suite>

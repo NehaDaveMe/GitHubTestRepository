@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		<classes>
+		
+		
+		<!-- WTW reports --> 	
+<!-- New Report 25/05/2021 Report_ContractorPackageStatusReport_Test-->
+	
+	
+			<class name="TestScript.Report_ContractorPackageStatusReport_Test" /> 	
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_Test" />
+			<class name="TestScript.Report_ContractStatusReport_Test" />
+			<class name="TestScript.Report_NonCompliance_Test" />
+			<class name="TestScript.Report_ProgramWideReportCard_Test" />
+	 		<class name="TestScript.Report_ProjectSpecificReport_Test" />
+	 		
+	 		
+			<class name="TestScript.Report_SubmittedPayroll_Test" />
+			<class name="TestScript.Report_PayrollNonCompliacnReport_Test"/>
+			<class name="TestScript.Report_EnrollmentStatusReport_Test"/>
+			<class name="TestScript.Report_PayrollSummaryReport_Test"/>
+			<class name="TestScript.Report_ContractorContactList_Test"/>
+			<class name="TestScript.Report_CarrierPayrolReport_Test" />
+			<class name="TestScript.Report_SuperIntendentReport_Test"/>
+			<class name="TestScript.Report_ActualPayroll_ReceiptsReport_Test" />
+			<class name="TestScript.Report_OpenActionItems_Test" /> 
+ 			
+ 			</classes>
+
+
+<!-- <class name="TestScript.Report_GL_Credit_Tracking_Test"/> //not present in program verified in 2 3 programs -->
+	
+	
+	</test>
+	
+</suite>

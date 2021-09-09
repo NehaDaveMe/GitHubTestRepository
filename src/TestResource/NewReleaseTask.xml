@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<test name="FunctionalTestNewReleaseTasks">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+				
+		
+			
+	<!-- <class name="TestScript.A1_DemoScript" /> -->
+
+	<class name="TestScript_NCP.EnrollCP_WCandGL_Test" />
+	
+	<class name="TestScript_NCP.EnrollCP_WCOnly_Test" />
+	<class name="TestScript_NCP.EnrollCP_GLOnly_Test" />
+	<class name="TestScript_NCP.EnrollCP_Exclude_Test" />
+
+	<class name="TestScript.ContractorPackagesPreviewPanelTest" />
+	<class name="TestScript_NCP.ContracroPkgCount_NCPTest" />
+	<!-- <class name="TestScript.Report_NoOfAwardsReport_TC" /> -->
+	<class name="TestScript.Exclude_CP_DocumentSignTest" />
+	<class name="TestScript.LocationCodeDuplicationTest" />
+	<class name="TestScript.Exclude_CP_NCP_DocumentSignTest" />
+	<class name="TestScript.SponsorDefaultOwnerSelectTest" />
+	<class name="TestScript.RequiredDocumentPageNewTabTest" />
+	<class name="TestScript_RR.AddClaimsViaCliamModuleTest" />
+	<class name="TestScript.Cancelled_Contractor_Pkg" />	
+ 	
+			<!-- 
+			<class name="TestScript.EnrollContractorWithouExcel_TC" />
+			<class name="TestScript_RR.NodeAdmin_ADD_Validations_Test" />
+			<class name="TestScript.Cancelled_Contractor_Pkg" />
+		
+			
+			<class name="TestScript_RR.AddClaimsViaCliamModuleTest" />
+			<class name="TestScript_RR.EditClaimsViaCliamModuleTest" />
+			<class name="TestScript_RR.HomePage_Claims_Test" />
+				
+			<class name="TestScript.LocationCodeDuplicationTest" />
+			<class name="TestScript.RequiredDocumentPageNewTabTest" />-->
+			
+		<!-- 	<class name="TestScript.Report_ContractorPackageStatusReport_Test" />
+			<class name="TestScript.Report_ContractorStandingReport_Test" />
+			<class name="TestScript.Report_NoOfAwardsReport_TC" />  -->
+			
+			
+			
+
+		</classes>
+	</test>
+
+</suite>

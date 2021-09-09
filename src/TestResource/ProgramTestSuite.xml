@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+	<test name="FunctionalTestProgramModule">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+																										
+	<!-- 		<class name="TestScript.WPCreateDBTestCase" />-->											
+	<!-- <class name="TestScript.A1_DemoScript" /> -->
+	<!-- <class name="TestScript.A1_DemoScriptTwo" />	 -->
+	
+			<class name="TestScript.AddProjectTC" />
+			<class name="TestScript.AddProgramTestClass" />	
+			<class name="TestScript.ProgramAdvancedFilter_Test" />
+			<class name="TestScript.EditProgram_PolicyRenewal_Test" />
+			<class name="TestScript.PreviewPanel_Program_Navi_Link_Test" />
+			<class name="TestScript.Verify_All_ToolTips" />
+	
+			
+		</classes>
+	</test>
+
+</suite>

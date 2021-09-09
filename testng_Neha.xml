@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+<test name="FunctionalTestContractorPackageModule">
+		<parameter name="browserName" value="chrome" />
+    <classes>
+<!--        <class name="TestScript_Neha.TaskValidationContractorPackageTest"/>  
+       <class name="TestScript_Neha.TaskValidationContractorsTest"/> 
+       <class name="TestScript_Neha.TaskValidationProgramTest"/> 
+       <class name="TestScript_Neha.TaskValidationProjectTest"/> 
+       <class name="TestScript_Neha.TaskValidationLossControlTest"/> 
+       <class name="TestScript_Neha.TaskValidationSponsorsTest"/> 
+       <class name="TestScript_Neha.TaskValidationClassCodeTest"/> -->
+       
+  <!--      <class name="TestScript_Neha.TaskModuleTest"/>  -->
+       
+   <!--     <class name="TestScript_Neha.TaskValidationPreBidCPTest"/> -->
+      <!--  <class name="TestScript_Neha.TaskValidationClaimsTest"/> -->
+     <!--   <class name="TestScript_Neha.TaskValidationEmailSectionTest"/> -->
+     <!--   <class name="TestScript_Neha.TaskValidationNotesTest"/> -->
+     <!--     <class name="TestScript_Neha.TaskValidationDocumentsTest"/> -->
+         <!-- <class name="TestScript_Neha.TaskValidationTradesTest"/> -->
+          <!--       <class name="TestScript_Neha.TaskValidationDistrictTest"/> -->
+          
+       <!--    <class name="TestScript_Neha.TaskValidationSwitchProgramModuleGeneralInfoTest"/> -->
+      
+    <!--   <class name="TestScript_Neha.TaskValidationSwitchProgramModuleContractorPortalOptionsTest"/> -->
+    
+      <class name="TestScript_Neha.TaskValidationEmailManagementTest"/>
+          
+    </classes>
+  </test> <!-- Neha -->
+</suite> <!-- Suite -->

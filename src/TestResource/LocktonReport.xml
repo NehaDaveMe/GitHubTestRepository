@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			
+			<!-- Lockton reports -->
+		 
+		 	<class name="TestScript.Report_ClaimCodingContractorSummaryReportTest" />
+			<class name="TestScript.Report_ContractorAwardsTest" />
+			
+			<class name="TestScript.Report_ContractorDeductSummaryTest" />
+			<class name="TestScript.Report_ContractorStructureTest" />
+			<class name="TestScript.Report_ContractValueLaborHoursbyProgram_Test" />
+			
+			<class name="TestScript.Report_ContractorStatusTest" />
+			<class name="TestScript.Report_EnrolledContractorsListTest" />
+			<class name="TestScript.Report_EnrollmentReportTest" />
+			
+			<class name="TestScript.Report_EstimatedEndDatesTest" />
+			<class name="TestScript.Report_FinalDeductTest" />
+			<class name="TestScript.Report_InitialDeduct_Test" /> 
+			<class name="TestScript.Report_AgendaTest" />
+				
+			<class name="TestScript.Report_MissingPayrollReportTest" />
+			<class name="TestScript.Report_SponsorProjectDetailTest" />
+			<class name="TestScript.Report_PayrollComparisonTest" />
+			<class name="TestScript.Report_PayrollToCVPercentageTest" /> 
+			
+			
+			<class name="TestScript.Report_SuspendedPayrollReportTest" />
+			<class name="TestScript.Report_TotalMonthlyPayrollTest" /> 
+			
+		<!-- 	<class name="TestScript.Report_ProgramCloseoutSummaryTC" /> //report is not listed in the list so remove-->
+	<!-- 
+	WTW reports
+	
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_TC" />
+			<class name="TestScript.Report_ContractStatusReport_TC" />
+			<class name="TestScript.Report_NonCompliance_TC" />
+			<class name="TestScript.Report_ProgramWideReportCard_TC" />
+	 		<class name="TestScript.Report_ProjectSpecificReport_TC" />
+	 		
+			<class name="TestScript.Report_SubmittedPayroll_TC" />
+			<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+			<class name="TestScript.Report_EnrollmentStatusReport_TC"/>
+			<class name="TestScript.Report_PayrollSummaryReport_TC"/>
+			<class name="TestScript.Report_ContractorContactList_TC"/>
+			<class name="TestScript.Report_CarrierPayrolReport_TC" />
+			<class name="TestScript.Report_SuperIntendentReport_TC"/>
+			<class name="TestScript.Report_ActualPayroll_ReceiptsReport_TC" />
+			<class name="TestScript.Report_OpenActionItems_TC" /> 
+ 				 -->
+ </classes>
+<!-- <class name="TestScript.Report_GL_Credit_Tracking_Test"/> //not present in program verified in 2 3 programs -->
+	
+	<!--
+ 			
+ 		NCP Reports	
+ 
+ 		<class name="TestScript_NCP.Report_NCP_Initial_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Final_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Missing_Payroll_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contract_Status_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Project_Specific_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_NON_Compliance_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Submitted_Payroll_Test"/> 
+		<class name="TestScript_NCP.Report_NCP_Program_WideCard_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Enrolled_Contractors_List_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contractor_Structure_By_Program_Test"/>
+	
+	 -->
+	</test>
+	
+</suite>

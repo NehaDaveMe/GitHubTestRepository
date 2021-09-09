@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+
+		<classes>
+
+			<!-- Wortham -->
+
+			<class name="TestScript.Report_SubcontractorStatusReportOld_Test" />
+			<class name="TestScript.Report_StatusReportOld_Test" />
+			<class name="TestScript.Report_ReportedPayrollByContractorWorkClassOldTest" />
+			<class name="TestScript.Report_QuarterlyEnrollmenteportOld_Test" />
+			
+			<class name="TestScript.Report_ProjectFinancialAnalysisWorkClass_Old_Test" />
+			<class name="TestScript.Report_ProjectFinancialAnalysisOld_Test" />
+			<class name="TestScript.Report_PayrollAuditSummaryByWorkClassOld_Test" />
+			<class name="TestScript.Report_MissingPayrollbyContractorOld_Test" />
+			
+			<class name="TestScript.Report_ExpiringCertificateReportOld_Test" />
+			<class name="TestScript.Report_EnrollmentListReportOld_Test" />
+			<class name="TestScript.Report_EnrollmentDetailReportOld_Test" />
+			<class name="TestScript.Report_ContractorReportOld_Test" />
+			<class name="TestScript.Report_ContractorProfileOld_Test" />
+			
+			<class name="TestScript.Report_ContractorDetailsOld_Test" />
+			<class name="TestScript.Report_ContractorDeductTrackingOld_Test" />
+
+			<class name="TestScript.Report_Certificate_Log_Old_Test" />
+			<class name="TestScript.Report_CertificateTrackingReportOld_Test" />
+			<class name="TestScript.Report_ClaimsReportOld_Test" />
+			
+			<class name="TestScript.Report_ContractorCloseOutTracking_OldTest" />
+			<class name="TestScript.Report_ContractorCostSummaryOld_Test" />
+
+	
+	<!-- 
+	<class name="TestScript.Report_ContractDetailsListOld_TC" />
+	<class name="TestScript.Report_ContractorPayrollManHoursAndLaborRateOld_TC" />
+	<class name="TestScript.Report_MissingPayrollbyContractorOld_TC" />
+	<class name="TestScript.Report_ProjectInsuranceCostAnalysisOld_TC" /> report not present in the list-->
+		</classes>
+	</test>
+</suite>

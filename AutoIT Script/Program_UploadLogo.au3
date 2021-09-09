@@ -1,0 +1,5 @@
+WinWaitActive("Open","",10)
+ControlFocus("Open","","Edit1")
+Sleep(2000)
+ControlSetText("Open","","Edit1","E:\kp workspace selenium\Wrap Portal\AutoIT Script\image001.png")
+ControlClick("Open","","Button1")

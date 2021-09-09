@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTestSponsorLoginModule">
+		<parameter name="browserName" value="chrome" />
+		
+	<classes>
+	
+<!-- 	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_MyProjectDownloadContractorCertificacteTest" /> -->
+	
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_Enroll_CP_WC_GL_Test" /> 
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_Changeorder_Test" />
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_MonthalyPayroll_Test" />
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_CloseOut__Test" />
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_MyProjectDownloadContractorCertificacteTest" />	
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_ViewHirarchyPageTest" />		 
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_MyCIP_Certificate_Test" />
+	
+	 
+	<!-- 
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_Report_Enrollment_Status_Test" />
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_SuperIntendentReport_Test" />		
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_ContractorContactList_Report_Test" />	 
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_Report_PayrollNON_CIP_Test" />	
+	<class name="TestScriptNCP_SponsorLogin.NCP_SPL_Report_PayrollSummaryReport_Test" />  -->
+	
+	
+	<!-- <class name="TestScriptNCP_SponsorLogin.NCP_SPL_Claims_Test" /> //funciotnality is removed -->
+		</classes>
+	</test>
+
+</suite>

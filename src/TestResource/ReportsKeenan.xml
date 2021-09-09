@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			
+			<!-- Keenan -->
+			
+	<!-- 		<class name="TestScript.Report_EnrollmentListReportOld_Test" />
+			<class name="TestScript.Report_ExpiringCertificateReportOld_Test" />
+			<class name="TestScript.Report_ReportedPayrollByContractorWorkClassOldTest" /> -->
+			<class name="TestScript.Report_ContractorPayrollManHoursAndLaborRateOld_Test" />
+			<class name="TestScript.Report_CertificateTrackingReportOld_Test" />
+			<class name="TestScript.Report_ContractorCostSummaryOld_Test" />
+			<class name="TestScript.Report_ContractorDeductTrackingOld_Test" />
+			<class name="TestScript.Report_ContractorDetailsOld_Test" />
+			<class name="TestScript.Report_ContractorReportOld_Test" />
+			
+			<class name="TestScript.Report_ContractorRosterReportOld_Test" />
+			<class name="TestScript.Report_LaborRateAnalysisOld_Test" />
+			<class name="TestScript.Report_LossControlReportOld_Test" />
+			<class name="TestScript.Report_MissingEnrollmentReportOld_Test" />
+			
+			<class name="TestScript.Report_NonCIPStatusReportOld_Test" />
+			<class name="TestScript.Report_PayrollAuditSummaryOld_Test" />
+			<class name="TestScript.Report_ProjectSummaryReportOld_Test" />
+			<class name="TestScript.Report_QuarterlyEnrollmenteportOld_Test" />
+			<class name="TestScript.Report_SubcontractorStatusReportOld_Test" />
+			<class name="TestScript.Report_WrapUpCreditReportOld_Test" />
+			
+			<class name="TestScript.Report_PercentOfPayrollToCV_Test" />
+			<class name="TestScript.Report_WorkClassPayrollHours_Test" />
+			<class name="TestScript.Report_ContractorProfileOld_Test" />
+			<class name="TestScript.Report_OCIPMetric_Test" />
+			<!-- <class name="TestScript.Report_ProjecTestloseOutReportOld_Test" />
+ -->			
+			<class name="TestScript.Report_ProgramFinancialAnalysisReportOld_Test" />
+			<class name="TestScript.Report_ProgramDeductionRateAnalysisOld_Test" />
+			<class name="TestScript.Report_ClaimsReportOld_Test" />
+			<class name="TestScript.Report_ClaimsSummaryReportOld_Test" />
+
+		
+				<!--
+				<class name="TestScript.Report_ContractorCloseOutTracking_Old" />
+				 <class name="TestScript.Report_ContractorInsuranceCostAnalysisOld_TC" /> //not used by keenan name changed-->
+	 				
+	 				
+ </classes>
+	</test>
+</suite>
